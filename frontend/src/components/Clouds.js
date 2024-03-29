@@ -23,7 +23,7 @@ class Birds extends React.Component {
       if (this.vantaEffect) this.vantaEffect.destroy()
     }
     render() {
-      return <div style= {{height: 750 + 'px'}} ref={this.vantaRef}>
+      return <div style= {{height: 650 + 'px'}} ref={this.vantaRef}>
       </div>
     }
   }
